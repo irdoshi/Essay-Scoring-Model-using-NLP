@@ -11,12 +11,12 @@ text - the text content of the essay
 **Models**
 The following models are implemented and evaluated:
 
--Ridge regression
--Ridge regression with sentiment feature
--SVR
--SVR with sentiment feature
--SVR with sentence embeddings from Universal Sentence Encoder
--Grid search is used to tune the hyperparameters of each model.
+* Ridge regression
+* Ridge regression with sentiment feature
+* SVR
+* SVR with sentiment feature
+* SVR with sentence embeddings from Universal Sentence Encoder
+* Grid search is used to tune the hyperparameters of each model.
 
 **Evaluation**
 The models are evaluated using mean squared error (MSE) on the test set. Lower MSE indicates better performance.
